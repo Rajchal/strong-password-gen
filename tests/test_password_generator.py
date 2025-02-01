@@ -1,7 +1,5 @@
-# tests/test_password_generator.py
-
 import unittest
-from src.password_generator import generate_password
+from src.main import generate_password
 import string
 
 class TestPasswordGenerator(unittest.TestCase):
